@@ -1,14 +1,19 @@
 @import "tailwindcss";
+@plugin "daisyui";
 
 :root {
   --background: #ffffff;
-  --foreground: #171717;
+  --foreground: #191919;
+  --gradient-yellow: linear-gradient(180deg, #FFDD03 0%, #FBC403 100%);
+  --font-lexend: 'Lexend', sans-serif;      /* added Lexend */
+  --font-geist-mono: 'Geist Mono', monospace;
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
+  --bg-gradient-yellow: var(--gradient-yellow);
+  --font-sans: var(--font-lexend);        
   --font-mono: var(--font-geist-mono);
 }
 
@@ -22,5 +27,5 @@
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-sans);            /* use Lexend */
 }
