@@ -35,27 +35,32 @@ const Footer = () => {
                 
                 amet consectetur.
               </p>
-              <button className="w-full border border-[#FFDD03] bg-[linear-gradient(180deg,rgba(255,221,3,0.1)_0%,rgba(251,196,3,0.1)_100%)] text-[#FFF] px-7 py-4 rounded-lg font-normal  transition-colors  flex justify-center items-center gap-3 mt-6">
+              <button className="w-full border border-[#FFDD03] bg-[linear-gradient(180deg,rgba(255,221,3,0.1)_0%,rgba(251,196,3,0.1)_100%)] text-[#FFF] px-2  lg:px-7 py-4 rounded-lg font-normal  transition-colors  flex justify-center items-center gap-3 mt-6">
                 How To Feature A Coin <img src="/coin.png" alt="" />
               </button>
             </div>
 
             
 
-            {/* Right Section - Email Subscription */}
+            {/* Right Section  */}
             <div className="flex flex-col gap-4 xl:min-w-xl">
-              <div className="flex flex-col md:flex-row gap-4 md:gap-0 ">
-                <input
-                  type="email"
-                  placeholder="Send us your Email"
-                  className="flex-1 bg-[rgba(255,255,255,0.10)] focus:outline-none text-[#DFDFDF] px-5 py-5 md:py-4 font-bold rounded-xl md:rounded-l-lg placeholder-[#DFDFDF]"
-                />
-                <button className="bg-[linear-gradient(180deg,#FFDD03_0%,#FBC403_100%)] text-[#191919] font-bold px-6 py-5 md:py-4 rounded-xl md:rounded-e-lg ">
-                  Contact us
-                </button>
-              </div>
+            <div className="flex flex-col md:flex-row gap-4 md:gap-0">
+  <input
+    type="email"
+    placeholder="Send us your Email"
+    className="flex-1 bg-[rgba(255,255,255,0.10)] focus:outline-none text-[#DFDFDF] px-6 py-5 md:py-4 font-bold placeholder-[#DFDFDF]
+               rounded-xl md:rounded-s-xl md:rounded-e-none"
+  />
+  <button
+    className="bg-[linear-gradient(180deg,#FFDD03_0%,#FBC403_100%)] text-[#191919] font-bold px-6 py-5 md:py-4 
+               rounded-xl md:rounded-e-xl md:rounded-s-none"
+  >
+    Contact us
+  </button>
+</div>
+
               {/* Contact Info */}
-            <div className="flex gap-8 md:gap-28 mt-15">
+            <div className="flex gap-8 md:gap-10 lg:gap-28 mt-15">
               <div>
                 <h3 className="font-bold text-white mb-2">Contacts</h3>
                 <p className="text-gray-400">+632 425 2251</p>
@@ -66,7 +71,7 @@ const Footer = () => {
               </div>
             </div>
               {/* Social Icons */}
-              <div className="flex gap-8 mt-16">
+              <div className="flex gap-8 mt-9 lg:mt-16">
               <FaTwitter  className="text-xl text-white"/>
               <FaFacebookF className="text-xl text-white"/>
               <FaInstagram className="text-xl text-white"/>
