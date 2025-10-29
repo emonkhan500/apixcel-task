@@ -13,7 +13,7 @@ const WhyMeme = () => {
             <p className="text-sm font-light text-[#191919]">Meme coins are like the jokers of the crypto world! They’re fun, quirky, and inspired by internet memes or jokes. Take Dogecoin, for example—it started as a joke but became super popular thanks to its community and a little help from influencers like Elon Musk. Meme coins are more about fun and hype than serious business!</p>
         </div>
         <div className=" flex-1">
-        <img className="absolute md:h-96 w-62 md:w-96 top-0 md:-top-15 lg:-top-35 left-40 md::left-50 xl:left-60" src="/qs.png" alt="" />
+        <img className="absolute md:h-96 w-62 md:w-96 top-0 md:-top-15 lg:-top-35 left-40 md:left-90 xl:left-60" src="/qs.png" alt="" />
         <img className="flex md:hidden lg:flex absolute md:h-96 w-62 md:w-96 top-55 lg:top-45 left-40 lg:left-60" src="/qs1.png" alt="" />
         </div>
         
