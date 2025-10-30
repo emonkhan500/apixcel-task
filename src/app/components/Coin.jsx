@@ -4,8 +4,14 @@ const Coin = () => {
     return (
         <div className=" relative max-w-7xl rounded-2xl mx-auto mt-10 lg:mt-26 bg-[rgba(255,255,255,0.12)] py-15 md:py-20 px-5 lg:px-20 xl:px-24">
             <h1 className='text-4xl font-medium text-[#FFDD03] text-center md:text-start'>Meme Coins Simplified</h1>
+            <img className='flex md:hidden  absolute top-45' src="/v1.png" alt="" />
+            {/* sm btn 1 */}
+            <img className='flex md:hidden absolute top-42 left-50' src="/btn.png" alt="" />
+             {/*sm small 1 */}
+      <img className='flex md:hidden  absolute top-57 left-4  ' src="/btn1.png" alt="" />
+
             {/* 1st */}
-            <div className='max-w-[840px] mx-auto xl:pl-26 mt-28  md:mt-20 lg:mt-40 xl:mt-[230px]'>
+            <div className='relative max-w-[840px] mx-auto xl:pl-26 mt-28  md:mt-20 lg:mt-40 xl:mt-[230px]'>
                 <h1 className='text-3xl font-medium text-white  '>What Are the Risks of <span className='text-3xl font-medium text-[#FFDD03] '>Trading Meme Coins?</span></h1>
                 <div className='grid grid-cols-1 md:grid-cols-2 gap-6 lg:gap-8 mt-8'>
                     <p className='text-[#DFDFDF] text-base font-light'>Meme coins can be a lot of fun, but it’s important to know the risks before diving in. Their value often depends on hype and trends, so while prices can soar, they can also drop just as quickly. To avoid surprises, be prepared for the rollercoaster ride!</p>
@@ -16,9 +22,14 @@ const Coin = () => {
 
                     <p className='text-[#DFDFDF] text-base font-light'>And finally, only invest what you’re okay with losing. Meme coins are meant to be fun, so treat them like a playful experiment rather than a serious financial strategy. With the right mindset and a bit of caution, you can enjoy the ride without worrying too much!</p>
                 </div>
+                <img className='flex md:hidden  absolute top-193' src="/v2.png" alt="" />
+                {/*sm small 1 */}
+      <img className='flex md:hidden absolute top-193 left-79  ' src="/btn1.png" alt="" />
+      <img className='flex md:hidden absolute top-215 left-0  ' src="/btn1.png" alt="" />
+
             </div>
             {/* 2nd */}
-            <div className='max-w-[840px] mx-auto xl:pr-24 mt-20 lg:mt-0 lg:py-[80px]'>
+            <div className='max-w-[840px] mx-auto xl:pr-24 mt-32 md:mt-24 lg:mt-0 lg:py-[80px]'>
                 <h1 className='text-3xl font-medium text-white lg:mt-32 xl:mt-24 '>What Are the Risks of <span className='text-3xl font-medium text-[#FFDD03] '>Trading Meme Coins?</span></h1>
                 <div className='grid grid-cols-1 md:grid-cols-2 gap-6 mt-8'>
                     <p className='text-[#DFDFDF] text-base font-light'>Meme coins can be a lot of fun, but it’s important to know the risks before diving in. Their value often depends on hype and trends, so while prices can soar, they can also drop just as quickly. To avoid surprises, be prepared for the rollercoaster ride!</p>
@@ -57,7 +68,7 @@ const Coin = () => {
       {/*leaf */}
       <img className='flex md:hidden lg:flex w-16 lg:w-20 xl:w-32 h-16 lg:h-20 xl:h-32  absolute  top-197 lg:top-200  xl:top-235 -right-5 lg:right-2  xl:right-25' src="/leaf.png" alt="" />
       {/*batch */}
-      <img className='flex md:hidden lg:flex w-16 xl:w-24 h-16 xl:h-24  absolute top-255 lg:top-181  xl:top-196 left-30 md:left-80 xl:left-115' src="/batch.png" alt="" />
+      <img className='flex md:hidden lg:flex w-16 xl:w-24 h-16 xl:h-24  absolute top-260 lg:top-181  xl:top-196 left-32 md:left-80 xl:left-115' src="/batch.png" alt="" />
       {/*kath */}
       <img className='flex md:hidden lg:flex w-32 lg:w-60 xl:68 lg:flex absolute top-25 lg:-top-8  xl:-top-10 -right-4 md:left-165 xl:left-230' src="/kath.png" alt="" />
 

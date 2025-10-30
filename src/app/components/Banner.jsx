@@ -2,7 +2,7 @@ import React from "react";
 
 const Banner = () => {
   return (
-    <div className="max-w-7xl mx-auto  text-center mt-28    md:py-24">
+    <div className="max-w-7xl mx-auto  text-center mt-28 mb-10   md:py-24">
       <div className="relative">
         <div className="z-20 xl:max-w-5xl mx-auto relative">
         <h1 className=" text-5xl lg:text-6xl xl:text-8xl text-white">
