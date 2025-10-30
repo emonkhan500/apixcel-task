@@ -15,7 +15,7 @@ const Faq = () => {
                     <img className='absolute -top-2 right-25 lg:right-35 xl:right-60 h-10 w-10'  src="/7.png" alt="" />
                 </div>
                 <img className='absolute bottom-7 right-12 lg:right-16 xl:right-35'  src="/5.png" alt="" />
-                <img className='absolute bottom-30 md:bottom-40 right-80 lg:right-105 xl:right-140'  src="/6.png" alt="" />
+                <img className='absolute bottom-30 md:bottom-40 right-80 md:right-60 lg:right-105 xl:right-140'  src="/6.png" alt="" />
             </div>
 
 
