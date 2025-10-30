@@ -52,7 +52,7 @@ const Footer = () => {
                rounded-xl md:rounded-s-xl md:rounded-e-none"
   />
   <button
-    className="bg-[linear-gradient(180deg,#FFDD03_0%,#FBC403_100%)] text-[#191919] font-bold px-6 py-5 md:py-4 
+    className="cursor-pointer bg-[linear-gradient(180deg,#FFDD03_0%,#FBC403_100%)] text-[#191919] font-bold px-6 py-5 md:py-4 
                rounded-xl md:rounded-e-xl md:rounded-s-none"
   >
     Contact us

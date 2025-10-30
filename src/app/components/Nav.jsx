@@ -16,7 +16,7 @@ const Nav = () => {
         </div>
 
         {/* Wallet Button */}
-        <button className="bg-[linear-gradient(180deg,#FFDD03_0%,#FBC403_100%)] text-[#191919] px-4 py-3 rounded-2xl font-semibold flex gap-3 justify-center items-center  ">
+        <button className="cursor-pointer bg-[linear-gradient(180deg,#FFDD03_0%,#FBC403_100%)] text-[#191919] px-4 py-3 rounded-2xl font-semibold flex gap-3 justify-center items-center  ">
         <img className='h-6 w-6' src="/wallet.png" alt="" />
           <span>0xDe1...6F33</span>
         </button>

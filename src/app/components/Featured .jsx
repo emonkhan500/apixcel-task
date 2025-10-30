@@ -48,9 +48,9 @@ const Featured  = () => {
           <div>
             <p className="text-white text-lg font-semibold mb-3">Links :</p>
             <div className="flex gap-4">
-            <FaGlobe className='bg-[rgba(255,255,255,0.06)] p-2 text-4xl rounded-full text-white'/>
-            <FaXTwitter className='bg-[rgba(255,255,255,0.06)] p-2 text-4xl rounded-full text-white' />
-            <FaDiscord className='bg-[rgba(255,255,255,0.06)] p-2 text-4xl rounded-full text-white' />
+            <FaGlobe className='cursor-pointer bg-[rgba(255,255,255,0.06)] p-2 text-4xl rounded-full text-white'/>
+            <FaXTwitter className='cursor-pointer bg-[rgba(255,255,255,0.06)] p-2 text-4xl rounded-full text-white' />
+            <FaDiscord className='cursor-pointer bg-[rgba(255,255,255,0.06)] p-2 text-4xl rounded-full text-white' />
             </div>
           </div>
         </div>
@@ -64,7 +64,7 @@ const Featured  = () => {
             pellentesque platea aenean habitant. Vitae velit luctus id egestas mauris. Turpis sed magna id aliquet nec.
             Eleifend eu mauris gravida amet sed nascetur felis magna fringilla.
           </p>
-          <button className="bg-[linear-gradient(180deg,#FFDD03_0%,#FBC403_100%)] text-[#191919] font-medium px-6 py-4 rounded-lg  flex justify-center items-center gap-2">
+          <button className="cursor-pointer bg-[linear-gradient(180deg,#FFDD03_0%,#FBC403_100%)] text-[#191919] font-medium px-6 py-4 rounded-lg  flex justify-center items-center gap-2">
             Buy Now
             <GoArrowUpRight />
           </button>
