@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "Apixcel | Smart Task Manager",
+  title: "Apixcel ",
   description: "Landing page built with Next.js, Tailwind, and DaisyUI",
 };
 
